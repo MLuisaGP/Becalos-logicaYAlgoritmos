@@ -14,13 +14,13 @@
         <h1>Lista de compras</h1>
         <main >
             <form action="" class="form">
-                <input type="text" placeholder="Ingresa un producto a la lista">
-                <input type="submit" value="agregar">
+                <input type="text" id="input-txt" placeholder="Ingresa un producto a la lista">
+                <input type="submit" value="agregar" id="btn-add">
             </form>
             <section class="sct-lista">
                 <hgroup class="title">
-                    <h4>Numero Elementos</h3>
-                    <h3># 9</h3>
+                    <h4>Numero Elementos</h4>
+                    <h3># <span id="lbl-elementos">0</span></h3>
                 </hgroup>
                 <div class="scroll-list">
                     <ul>
@@ -30,5 +30,6 @@
             </section>
         </main>
     </article>
+    <script src="js/app.js"></script>
 </body>
 </html>

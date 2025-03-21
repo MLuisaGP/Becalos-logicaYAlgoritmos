@@ -12,12 +12,13 @@ const mostrarLista = ()=>{
     
 };
 
-agregarProducto('mayonesa');
-agregarProducto('uva');
-agregarProducto('uva');
-agregarProducto('fresas');
-agregarProducto('shampoo');
-agregarProducto('shampoo');
-mostrarLista();
-eliminarProducto('uva');
-mostrarLista();
+const btnAdd = document.getElementById('btn-add');
+const inputText = document.getElementById('input-txt');
+const lblElemento = document.getElementById('lbl-elementos');
+
+btnAdd.addEventListener('click',(e)=>{
+    e.preventDefault();
+    if(inputText.value.trim() == "")return;
+    agregarProducto(inputText.value);
+    alert(listaDeCompras);
+})
