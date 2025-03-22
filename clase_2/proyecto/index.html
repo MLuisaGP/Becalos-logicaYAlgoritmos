@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de compras</title>
+</head>
+<body>
+    <article>
+        <h1>Lista de compras</h1>
+        <main >
+            <form action="" class="form">
+                <input type="text" id="input-txt" placeholder="Ingresa un producto a la lista">
+                <input type="submit" value="agregar" id="btn-add">
+            </form>
+            <section class="sct-lista">
+                <hgroup class="title">
+                    <h4>Numero Elementos</h4>
+                    <h3># <span id="lbl-elementos">0</span></h3>
+                </hgroup>
+                <div class="scroll-list">
+                    <ul id="lista">
+                        <li class="li-productos"><button class="btn-list"></button> Pan</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </article>
+    <script src="js/app.js"></script>
+</body>
+</html>
