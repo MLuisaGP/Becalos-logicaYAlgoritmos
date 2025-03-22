@@ -1,24 +1,26 @@
+const btnAdd = document.getElementById('btn-add');
+const inputText = document.getElementById('input-txt');
+const lista = document.getElementById('lista');
+const lblElemento = document.getElementById('lbl-elementos');
+
 let listaDeCompras = new Set();
 
 const agregarProducto = (producto)=>listaDeCompras.add(producto);
 const eliminarProducto = (producto)=> listaDeCompras.delete(producto)
 const mostrarLista = ()=>{
-    let txt = "LISTA DE COMPRA\n";
-    txt += "-------------------\n";
-     txt += `No.Elementos: ${listaDeCompras.size} \n`;
-    listaDeCompras.forEach((elemento)=> txt+= `${elemento}\n`)
-    txt += "-------------------\n";
-    console.log(txt);
+    listaDeCompras.forEach((elemento)=> {
+        let atributo = document.createElement("li");
+        atributo.textContent="ho";
+        lista.appendChild(atributo);
+    })
     
 };
 
-const btnAdd = document.getElementById('btn-add');
-const inputText = document.getElementById('input-txt');
-const lblElemento = document.getElementById('lbl-elementos');
+
 
 btnAdd.addEventListener('click',(e)=>{
     e.preventDefault();
     if(inputText.value.trim() == "")return;
     agregarProducto(inputText.value);
-    alert(listaDeCompras);
+    mostrarLista();
 })
