@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -19,38 +25,40 @@
         </nav>
     </header>
     <main>
-        <hgroup>
+        <hgroup class="title-main">
             <h1>Productos</h1>
         </hgroup>
         <article class="atc-productos-card">
             <div class="producto-order">
-                <select name="orden" id="orden">
+                <label for="orden">Ordenar:</label>
+                <select name="orden" id="orden" class="select">
                     <option id="desordenado" disabled selected>--ORDENAR--</option>
                     <option id="asc">A-Z</option>
                     <option id="desc">Z-A</option>
                 </select>
             </div>
-            <section id="sct-productos">
+            <section id="sct-productos" class="sct-productos">
                 <div class="product-card">
                     <div class="img-card">
                         <img src="./img/laptop.png" alt="producto-laptop" width="200">
                     </div>
                     <h3>Nombre Producto</h3>
                     <div class="card-inf">
-                        <p>Precio:$5000</p>
-                        <p>cartegoria: Electronico</p>
-                        <p>stock:2</p>
+                        <p><strong>Precio:</strong> $5000</p>
+                        <p><strong>Cartegoria:</strong> Electronico</p>
+                        <p><strong>Stock:</strong> 2</p>
+                        <button><i class="fa-solid fa-plus"></i></button>
                     </div>
-                    <button>Agregar</button>
                 </div>
             </section>
         </article>
         <article class="filter">
+            <h3>Filtros</h3>
             <form action="">
                 <div class="filtro">
                     <label for="flt-categoria">Categoria</label>
                     <select name="flt-categoria" id="flt-categoria">
-                        <option id="cat-todas"  selected>--Todas--</option>
+                        <option id="cat-todas" selected>--Todas--</option>
                         <option id="cat-opcion-1">cat-1</option>
                         <option id="cat-opcion-2">cat-2</option>
                     </select>
@@ -66,20 +74,22 @@
             </form>
         </article>
         <article class="carrito">
-           <section class="productos">
-                    <h3>Nombre Producto</h3>
-                    <div class="card-inf">
-                        <p>Precio:$5000</p>
-                        <p>cantidad:2</p>
-                    </div>
-                    <button>retirar</button>
+            <h3>Carrito</h3>
+            <section class="productos">
+                <h4>Nombre Producto</h4>
+                <div class="card-inf">
+                    <p>Precio:$5000</p>
+                    <p>cantidad:2</p>
                 </div>
-           </section>
-           <section class="total">
-                <p>Descuento:20%</p>
-                <p>Envio Gratis:false</p>
+                <button><i class="fa-solid fa-trash"></i></button>
+                </div>
+            </section>
+            <section class="total">
+                <p>Descuento: 20%</p>
+                <p>Cantidad: 3</p>
+                <p>Envio Gratis: false</p>
                 <p>total: 4000</p>
-           </section>
+            </section>
         </article>
     </main>
 
