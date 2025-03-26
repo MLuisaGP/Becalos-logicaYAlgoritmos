@@ -1,15 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <img src="img/camiseta.avif" alt="">
-    <img src="img/laptop.png" alt="">
-    <img src="img/libro.jpg" alt="">
-    <img src="img/telefono.png" alt="">
-    <img src="img/zapatos.webp" alt="">
+    <header>
+        <picture class="header__conainer-logo">
+            <img src="./img/logo/logo.png" alt="logo">
+        </picture>
+        <nav class="header__conainer-nav">
+            <a href="#">Inicio</a>
+            <a href="#">Producto</a>
+            <a href="#">Carrito</a>
+        </nav>
+    </header>
+    <main>
+        <hgroup>
+            <h1>Productos</h1>
+        </hgroup>
+        <article class="atc-productos-card">
+            <div class="producto-order">
+                <select name="orden" id="orden">
+                    <option id="desordenado" disabled selected>--ORDENAR--</option>
+                    <option id="asc">A-Z</option>
+                    <option id="desc">Z-A</option>
+                </select>
+            </div>
+            <section id="sct-productos">
+                <div class="product-card">
+                    <div class="img-card">
+                        <img src="./img/laptop.png" alt="producto-laptop" width="200">
+                    </div>
+                    <h3>Nombre Producto</h3>
+                    <div class="card-inf">
+                        <p>Precio:$5000</p>
+                        <p>cartegoria: Electronico</p>
+                        <p>stock:2</p>
+                    </div>
+                    <button>Agregar</button>
+                </div>
+            </section>
+        </article>
+        <article class="filter">
+            <form action="">
+                <div class="filtro">
+                    <label for="flt-categoria">Categoria</label>
+                    <select name="flt-categoria" id="flt-categoria">
+                        <option id="cat-todas"  selected>--Todas--</option>
+                        <option id="cat-opcion-1">cat-1</option>
+                        <option id="cat-opcion-2">cat-2</option>
+                    </select>
+                </div>
+                <div class="producto">
+                    <label for="flt-producto">Producto</label>
+                    <select name="flt-producto" id="flt-producto">
+                        <option id="prod-todas" selected>--Todas--</option>
+                        <option id="prod-prod-1">prod-1</option>
+                        <option id="prod-prod-2">prod-2</option>
+                    </select>
+                </div>
+            </form>
+        </article>
+        <article class="carrito">
+           <section class="productos">
+                    <h3>Nombre Producto</h3>
+                    <div class="card-inf">
+                        <p>Precio:$5000</p>
+                        <p>cantidad:2</p>
+                    </div>
+                    <button>retirar</button>
+                </div>
+           </section>
+           <section class="total">
+                <p>Descuento:20%</p>
+                <p>Envio Gratis:false</p>
+                <p>total: 4000</p>
+           </section>
+        </article>
+    </main>
+
+    <footer>
+        &copy; 2025 <a href="">MluisaGalazP</a>
+    </footer>
 </body>
+
 </html>
