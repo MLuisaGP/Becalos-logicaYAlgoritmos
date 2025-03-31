@@ -9,12 +9,12 @@ const productos = [
 ];
 
 const productosMenoresPrecio = (precio)=>productos.filter((producto)=>producto.precio<precio);
-// console.log(productosMenoresPrecio(100));
+console.log(productosMenoresPrecio(100));
 
 const ordenarProducAsc = ()=>productos.sort((a,b)=>a.nombre.toLocaleLowerCase().localeCompare(b.nombre.toLocaleLowerCase()));
 const ordenarProducDesc = ()=>productos.sort((a,b)=>b.nombre.toLocaleLowerCase().localeCompare(a.nombre.toLocaleLowerCase()));
 ordenarProducAsc();
-// console.log(productos);
+console.log(productos);
 
 const nombreProductos = productos.map((producto)=>producto.nombre);//lista de productos
 console.log(nombreProductos);
