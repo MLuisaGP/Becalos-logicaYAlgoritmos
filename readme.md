@@ -49,6 +49,139 @@ El proyecto se puede ver en producion con el siguiente link [Proyecto_2](https:/
 Teniendo como resultado final la vista que se muestra en la siguiente imagen.
 ![proyecto_2](assets/proyecto_2.png)
 
+### Clase 3. [Metodos de Arreglos](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3)
+
+En esta clase se vieron los diferentes metodos de arreglos a un nivel más profundo y se vieron los casos de uso en que se utilizaria cada metodo. Los ejercicios realizados en clase se puede ver en el siguiente link [clase_3: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/notas-clase) y los ejercicos de las lecturas con anotaciones relevantes se pueden ver en el siguiente link  [clase_3: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/lectura)
+Como actividad de practica, se plnea gestionar los datos dentro de una tienda online, donde se tiene un listado de productos con información como nombre, precio y categoría. El proposito principal de la actividad es filtrar los productos por precio, ordenarlos alfabéticamente y generar una lista con los nombres. Esta actividad se puede ver en el siguiente link 
+[Metodos de Arreglos](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/proyecto/js/practica.js). 
+Las acciones que se realizan son los siguientes:
+
+- Se obtiene los productos que sean menores de 100 pesos.
+- Productos ordenados de manera ascendente.
+- Lista de nombres de los productos.
+- Precio total de todos los productos.
+- Si hay al menos un producto de electronica, entonces hay descuento.
+- Verificar si todos tienen envio gratis.
+- Validar si hay productos sin stock.
+- Y se agrego tambien como extra, como seria enviar productos a un carrito, donde no se quiere insertar dos veces el producto y que mejor se agrege una propiedad extra con el nombre cantidad.
+
+La practica final nos da el siguiente resultado en la terminal:
+
+        Los productos menores a 100 pesos son: [
+        {
+        id: 12930,
+        nombre: 'Camiseta',
+        precio: 15,
+        categoria: 'Ropa',
+        img: 'img/camiseta.avif',
+        free_delivery: false,
+        stock: 10
+        },
+        {
+        id: 12321,
+        nombre: 'Libro',
+        precio: 12,
+        categoria: 'Educacion',
+        img: 'img/libro.jpg',
+        free_delivery: false,
+        stock: 10
+        },
+        {
+        id: 54261,
+        nombre: 'Zapatos',
+        precio: 50,
+        categoria: 'Ropa',
+        img: 'img/telefono.png',
+        free_delivery: false,
+        stock: 5
+        }
+        ]
+        Productos ordenados de manera asc: [
+        {
+        id: 12930,
+        nombre: 'Camiseta',
+        precio: 15,
+        categoria: 'Ropa',
+        img: 'img/camiseta.avif',
+        free_delivery: false,
+        stock: 10
+        },
+        {
+        id: 66533,
+        nombre: 'Celular',
+        precio: 600,
+        categoria: 'Electronica',
+        img: 'img/zapatos.webp',
+        free_delivery: true,
+        stock: 0
+        },
+        {
+        id: 43241,
+        nombre: 'Laptop',
+        precio: 800,
+        categoria: 'Electronica',
+        img: 'img/laptop.png',
+        free_delivery: true,
+        stock: 0
+        },
+        {
+        id: 12321,
+        nombre: 'Libro',
+        precio: 12,
+        categoria: 'Educacion',
+        img: 'img/libro.jpg',
+        free_delivery: false,
+        stock: 10
+        },
+        {
+        id: 54261,
+        nombre: 'Zapatos',
+        precio: 50,
+        categoria: 'Ropa',
+        img: 'img/telefono.png',
+        free_delivery: false,
+        stock: 5
+        }
+        ]
+        Productos: [ 'Camiseta', 'Celular', 'Laptop', 'Libro', 'Zapatos' ]
+        Precio total 1477
+        Hay descuento?  true
+        Tienen todos envio gratis?  false
+        Hay productos sin stock? true
+        carrito: [
+        {
+        id: 12930,
+        nombre: 'Camiseta',
+        precio: 15,
+        categoria: 'Ropa',
+        img: 'img/camiseta.avif',
+        free_delivery: false,
+        stock: 10,
+        cantidad: 2
+        },
+        {
+        id: 43241,
+        nombre: 'Laptop',
+        precio: 800,
+        categoria: 'Electronica',
+        img: 'img/laptop.png',
+        free_delivery: true,
+        stock: 0,
+        cantidad: 1
+        }
+        ]
+
+
+### Clase 4. [Algoritmo de los 2 punteros](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4)
+
+En esta leccion se vio el metodo de los dos punteros. El método de los dos punteros es una técnica esencial en algoritmos y estructuras de datos que se emplea frecuentemente para recorrer un arreglo de manera optimizada. Se aplica en distintas situaciones, como la identificación de pares de números que satisfacen ciertas condiciones, la combinación de listas ordenadas o la resolución de problemas vinculados con secuencias y cadenas de caracteres.
+Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_4: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4/notas_clase)
+
+Como practica, el cual se encuentra en [clase_3: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4/practica/app.js). El cual consiste en utilizar el algoritmo de dos punteros para obtener el primer par de personas que tengan igual su primera inicial de su nombre, con el poposito de organizar las mesas de los invitados, sentando a algunas personas con la misma inicial juntas. La respuesta en consola se puede ver a continuación.
+
+        [ 'Maria', 'Monica' ]
+
+
 ## Autor
 
 Creado por [MluisaGP](https://github.com/MLuisaGP)
