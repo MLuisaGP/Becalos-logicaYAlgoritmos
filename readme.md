@@ -177,11 +177,23 @@ La practica final nos da el siguiente resultado en la terminal:
 En esta leccion se vio el metodo de los dos punteros. El método de los dos punteros es una técnica esencial en algoritmos y estructuras de datos que se emplea frecuentemente para recorrer un arreglo de manera optimizada. Se aplica en distintas situaciones, como la identificación de pares de números que satisfacen ciertas condiciones, la combinación de listas ordenadas o la resolución de problemas vinculados con secuencias y cadenas de caracteres.
 Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_4: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4/notas_clase)
 
-Como practica, el cual se encuentra en [clase_3: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4/practica/app.js). El cual consiste en utilizar el algoritmo de dos punteros para obtener el primer par de personas que tengan igual su primera inicial de su nombre, con el poposito de organizar las mesas de los invitados, sentando a algunas personas con la misma inicial juntas. La respuesta en consola se puede ver a continuación.
+Como practica, el cual se encuentra en [clase_4: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4/practica/app.js). El cual consiste en utilizar el algoritmo de dos punteros para obtener el primer par de personas que tengan igual su primera inicial de su nombre, con el poposito de organizar las mesas de los invitados, sentando a algunas personas con la misma inicial juntas. La respuesta en consola se puede ver a continuación.
 
         [ 'Maria', 'Monica' ]
 
+### Clase 5. [Algoritmo Sliding Window](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5)
 
+En esta leccion se vio el algoritmo sliding window, el cual es una tecnica utilizada para resolver problemas queinvolucran subconjuntos continuos de datos, como arreglos o cadenas, optimizando el tiempo de ejecución. 
+Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_5: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5/notas_clase) y las notas realizadas de la lectura se puede ver a continuación: [clase_5: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5/lectura)
+
+Como practica, el cual se encuentra en [clase_5: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5/proyecto/slidingWindowProject.js). El cual consitia en encontrar la palabra más larga dentro de un texto utilizando el algoritmo sliding Window. En esta practica se realizaron dos metodos, el primero es dando uso de .split(''), el cual toma cada palabra dentro del texto y los almacena por separado en un array y se recorre ese array encontrando la palabra más larga. El segun metodo es manteniendo el texto como string, y tener dos referencias el de inicio y el de final los cuales inician posicionandoce en el inicio del texto, la referencia final se iba recoriendo una posicion a la derecha y se detiene cuando cuando hay un espacio. Cada vez que se recorre revisa si la logitud de la palabra almacenada es mayor a la palabra actual, si no lo es entonces se almacena la nueva palabra como la palabra más larga.
+Los dos metodos fueron provados con el siguiente texto:
+
+        'El cielo azul resplandece mientras las aves vuelan alto, el viento susurra secretos y el sol brilla con intensidad sobre la ciudad.'
+
+Dando como respuesta:
+
+        resplandece
 ## Autor
 
 Creado por [MluisaGP](https://github.com/MLuisaGP)

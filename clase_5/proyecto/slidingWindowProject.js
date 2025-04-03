@@ -21,7 +21,7 @@ function findLongestWordM2(text) {
     
     //* Recorrer el arreglo de palabras con un ciclo
     for (fin = 0; fin<text.length; fin++) {
-        if(text[fin]===' '){
+        if(!(/^[a-zA-Z]$/.test(text[fin]))){
             inicio = fin;
             subText='';
         }else{
@@ -32,7 +32,6 @@ function findLongestWordM2(text) {
     //* Retornar la palabra más larga encontrada
     return longestWord;
 }
-
 // Ejemplo de uso
 const text = "El cielo azul resplandece mientras las aves vuelan alto, el viento susurra secretos y el sol brilla con intensidad sobre la ciudad.";
 //* Llama a la función y muestra el resultado
