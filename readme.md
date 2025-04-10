@@ -194,6 +194,28 @@ Los dos metodos fueron provados con el siguiente texto:
 Dando como respuesta:
 
         resplandece
+
+### Clase 6. [Recursion y backtracking](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_6)
+
+En esta sección se conoce y se da uso de los metodos recursivos, viendo la importancia de conocerlos y darle una buena utilidad. Se ven puntos claves para evitar los ciclos infinitos y las buenas practicas.
+Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_6: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_6/notas-clase) y las notas realizadas de la lectura se puede ver a continuación: [clase_6: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_6/lectura)
+
+Como practica, el cual se encuentra en [clase_6: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_6/practica/recursionAndBacktracking.js). El cual consitia en encontrar dentro de una lista de regalos para navidad, un regalo en especifico y que me regresara la posición en la que se encuentra ese regalo o si no se encontraba ese regalo en la lista.
+Para eso se dio uso de puntos bases, los cuales regresaba datos si el regalo era encontrado o si ya se habia recorido la lista completa y no se encontraba el regalo.
+La lista de regalos era la siguiente:
+
+        ["Muñeca", "Carro de juguete", "Rompecabezas", "Lego", "Pelota"]
+
+Y los regalos a buscar eran los siguientes:
+
+        ["Lego","Camión","Pelota"]
+
+Dando como respuesta en consola lo siguiente:
+
+        Lego esta en la posición 3.
+        Camión no está en la lista.
+        Pelota esta en la posición 4.
+
 ## Autor
 
 Creado por [MluisaGP](https://github.com/MLuisaGP)
