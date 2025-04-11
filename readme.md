@@ -216,6 +216,38 @@ Dando como respuesta en consola lo siguiente:
         Camión no está en la lista.
         Pelota esta en la posición 4.
 
+
+### Clase 7. [Divide y Vencerás](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7)
+
+Como clase 7 se ve lo que es el enfoque de Divide y venceras, el cual es un paradigma que permite resolver los problemas dividiendolos en problemas mas pequeños siendo faciles de resolver, permitiendo unirlos al final dando la solución al problema original. Esto es muy utilizado cuando se tiene un problema grande o muy complejo.
+Este paradigma cuenta con tres pasos fundamentales: 
+
+1. Dividir: Un problema grande se divide en varios problemas mas pequeños y faciles de manejar.
+2. Conquistar: Esos problemas mas pequeños son resueltos uno por uno. 
+3. Combinar: Se toman las soluciones de los problemas mas pequeños, logrando solucionar el problema original.
+
+Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_7: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7/notas-clases) y las notas realizadas de la lectura se puede ver a continuación: [clase_7: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7/lectura)
+
+Como practica, el cual se encuentra en [clase_7: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7/practica/app.js). El resuelve el problema de encontrar el valor mayor de un array utilizando el metodo Divide and conquer, permitiendonos mejorar nuestra comprención y habilidad para utilizar este metodo.
+
+Se utilizaron diferentes listas de numeros, las cuales se muestran acontinuación:
+```js
+const numbers = [3, 8, 2, 10, 5, 7]; //prueba dada en la activiad
+// Arrays diferentes para validar el resultado
+const arreglo1 = [23, 87, 12, 45, 66];
+const arreglo2 = [-35, 8, 0, 27, -12, 14, 49];
+const arreglo3 = [3, 7, 0, 10];
+const arreglo4 = [123, 876, 345, 290, 765, 432];
+```
+Como respuesta se da lo siguiente
+
+        Maximo ejemplo 1: 10
+        Maximo arreglo 1: 87
+        Maximo arreglo 2: 49
+        Maximo arreglo 3: 10
+        Maximo arreglo 4: 876
+
+
 ## Autor
 
 Creado por [MluisaGP](https://github.com/MLuisaGP)
