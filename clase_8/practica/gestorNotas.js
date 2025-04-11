@@ -40,6 +40,8 @@ function listarNotas() {
  * @param {string} titulo - El título de la nota a eliminar.
  */
 function eliminarNota(titulo) {
+
+  //todo: convertir lo que esta dentro a objeto buscar que titulo coincide eliminar ese elemento y volver hacerlo json y sobre escribir la informacion
   if (fs.existsSync(filePath)) {
     // PISTA: Primero lee todas las notas.
     // COMPLETAR: Usa fs.readFileSync para leer el archivo.
@@ -66,6 +68,9 @@ eliminarNota('Compras');
   { "titulo": "Compras", "contenido": "Comprar leche y pan." },
   { "titulo": "Trabajo", "contenido": "Terminar reporte semanal." }
 ]
+
+
+
 
 // #### Operaciones clave: ###
 // 1. Para leer las notas existentes:
