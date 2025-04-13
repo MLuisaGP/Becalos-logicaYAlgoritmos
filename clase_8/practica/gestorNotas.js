@@ -87,8 +87,7 @@ function eliminarNota(titulo) {
 }
 
 // Ejecución de ejemplo
-
-//agregarNota('Compras', 'Comprar leche y pan.');
- //agregarNota('Trabajo', 'Terminar reporte semanal.');
+// agregarNota('Compras', 'Comprar leche y pan.');
+agregarNota('Trabajo', 'Terminar reporte semanal.');
 //listarNotas();
-eliminarNota('Compras');
+//eliminarNota('Compras');
