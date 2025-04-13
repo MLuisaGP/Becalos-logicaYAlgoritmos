@@ -3,23 +3,25 @@
 En este repositorio se iran subiendo las actividades realizadas en DEV.F del programa de Becalos.
 
 ## Dependencias
-* Node Js v22.11.0
+
+- Node Js v22.11.0
+
 ### Clase 1. [Introduccion a EMACScripts](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_1)
 
 En esta primera clase se da la introduccion del estandar EMAC y vemos como ha evolucionado al paso de los tiempos. El principal objetivo del tema es aplicar los estandares establecidos por EMACScripts(6) y entender las ventajas de seguir este estandar y evitar utilizar acciones tradicionales o absoletas. Se menciona la implementacion del let y const en lugar del var, como var es un tipo de variable que provoca dificultad en mantener el codigo facil de leer y sin errores, el uso de funciones de flecha en lugar de funciones tradicionales, la implementación de clases y de modulos, como otras cosas más.
 En esta clase se tiene las notas realizadas dentro de la clase en vivo que podemos verlas en [clase_1: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_1/notasClase)
-Como practica, el cual se encuentra en [clase_1: proyecto](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_1/proyecto) de la clase consistia en actualizar un codigo que se encontraba con estandares anteriores a EMACScripts(6) y actualizarlo con el estandar EMACScripts(6). El codigo consitia en una aplicaciones para generar un intinerario de viajes. 
+Como practica, el cual se encuentra en [clase_1: proyecto](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_1/proyecto) de la clase consistia en actualizar un codigo que se encontraba con estandares anteriores a EMACScripts(6) y actualizarlo con el estandar EMACScripts(6). El codigo consitia en una aplicaciones para generar un intinerario de viajes.
 Para poder correr el codigo basta con descargar el repositorio que se encuentra en el siguiente link o escribir el siguiente codigo en la terminal
 
         git clone git@github.com:MLuisaGP/Becalos-logicaYAlgoritmos.git
-
 
 Despues posicionarnos en la carpeta generada y entrar a la carpeta de clase_1/proyecto y correr el archivo:
 
         cd tempCodeRunnerFile/clase_1/proyecto
         node "./tempCodeRunnerFile/clase_1/proyectotempCodeRunnerFile.js"
-        
-Te debe de dar el siguiente resultado 
+
+
+Te debe de dar el siguiente resultado
 
         Destino: Paris
         Fecha: 2024-06-15
@@ -39,7 +41,6 @@ Te debe de dar el siguiente resultado
         Personas: 3
         Costo: $1800
 
-
 ### Clase 2. [Estructuras de Datos](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_2)
 
 En esta lesión se dio un repaso de lo que es array y se dio introducción a diferentes estructuras de datos, dando ejemplos en que momento utilizrlos, toda la información aprendida en clase se puede ver en la carpeta[clase_2: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_2/notasClase)
@@ -51,9 +52,9 @@ Teniendo como resultado final la vista que se muestra en la siguiente imagen.
 
 ### Clase 3. [Metodos de Arreglos](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3)
 
-En esta clase se vieron los diferentes metodos de arreglos a un nivel más profundo y se vieron los casos de uso en que se utilizaria cada metodo. Los ejercicios realizados en clase se puede ver en el siguiente link [clase_3: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/notas-clase) y los ejercicos de las lecturas con anotaciones relevantes se pueden ver en el siguiente link  [clase_3: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/lectura)
-Como actividad de practica, se plnea gestionar los datos dentro de una tienda online, donde se tiene un listado de productos con información como nombre, precio y categoría. El proposito principal de la actividad es filtrar los productos por precio, ordenarlos alfabéticamente y generar una lista con los nombres. Esta actividad se puede ver en el siguiente link 
-[Metodos de Arreglos](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/proyecto/js/practica.js). 
+En esta clase se vieron los diferentes metodos de arreglos a un nivel más profundo y se vieron los casos de uso en que se utilizaria cada metodo. Los ejercicios realizados en clase se puede ver en el siguiente link [clase_3: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/notas-clase) y los ejercicos de las lecturas con anotaciones relevantes se pueden ver en el siguiente link [clase_3: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/lectura)
+Como actividad de practica, se plnea gestionar los datos dentro de una tienda online, donde se tiene un listado de productos con información como nombre, precio y categoría. El proposito principal de la actividad es filtrar los productos por precio, ordenarlos alfabéticamente y generar una lista con los nombres. Esta actividad se puede ver en el siguiente link
+[Metodos de Arreglos](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_3/proyecto/js/practica.js).
 Las acciones que se realizan son los siguientes:
 
 - Se obtiene los productos que sean menores de 100 pesos.
@@ -171,7 +172,6 @@ La practica final nos da el siguiente resultado en la terminal:
         }
         ]
 
-
 ### Clase 4. [Algoritmo de los 2 punteros](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_4)
 
 En esta leccion se vio el metodo de los dos punteros. El método de los dos punteros es una técnica esencial en algoritmos y estructuras de datos que se emplea frecuentemente para recorrer un arreglo de manera optimizada. Se aplica en distintas situaciones, como la identificación de pares de números que satisfacen ciertas condiciones, la combinación de listas ordenadas o la resolución de problemas vinculados con secuencias y cadenas de caracteres.
@@ -183,7 +183,7 @@ Como practica, el cual se encuentra en [clase_4: practica](https://github.com/ML
 
 ### Clase 5. [Algoritmo Sliding Window](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5)
 
-En esta leccion se vio el algoritmo sliding window, el cual es una tecnica utilizada para resolver problemas queinvolucran subconjuntos continuos de datos, como arreglos o cadenas, optimizando el tiempo de ejecución. 
+En esta leccion se vio el algoritmo sliding window, el cual es una tecnica utilizada para resolver problemas queinvolucran subconjuntos continuos de datos, como arreglos o cadenas, optimizando el tiempo de ejecución.
 Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_5: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5/notas_clase) y las notas realizadas de la lectura se puede ver a continuación: [clase_5: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5/lectura)
 
 Como practica, el cual se encuentra en [clase_5: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_5/proyecto/slidingWindowProject.js). El cual consitia en encontrar la palabra más larga dentro de un texto utilizando el algoritmo sliding Window. En esta practica se realizaron dos metodos, el primero es dando uso de .split(''), el cual toma cada palabra dentro del texto y los almacena por separado en un array y se recorre ese array encontrando la palabra más larga. El segun metodo es manteniendo el texto como string, y tener dos referencias el de inicio y el de final los cuales inician posicionandoce en el inicio del texto, la referencia final se iba recoriendo una posicion a la derecha y se detiene cuando cuando hay un caracter que no sea una letra (ya sea en mayusculas o minusculas). Cada vez que se recorre revisa si la logitud de la palabra almacenada es mayor a la palabra actual, si no lo es entonces se almacena la nueva palabra como la palabra más larga.
@@ -216,14 +216,13 @@ Dando como respuesta en consola lo siguiente:
         Camión no está en la lista.
         Pelota esta en la posición 4.
 
-
 ### Clase 7. [Divide y Vencerás](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7)
 
 Como clase 7 se ve lo que es el enfoque de Divide y venceras, el cual es un paradigma que permite resolver los problemas dividiendolos en problemas mas pequeños siendo faciles de resolver, permitiendo unirlos al final dando la solución al problema original. Esto es muy utilizado cuando se tiene un problema grande o muy complejo.
-Este paradigma cuenta con tres pasos fundamentales: 
+Este paradigma cuenta con tres pasos fundamentales:
 
 1. Dividir: Un problema grande se divide en varios problemas mas pequeños y faciles de manejar.
-2. Conquistar: Esos problemas mas pequeños son resueltos uno por uno. 
+2. Conquistar: Esos problemas mas pequeños son resueltos uno por uno.
 3. Combinar: Se toman las soluciones de los problemas mas pequeños, logrando solucionar el problema original.
 
 Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_7: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7/notas-clases) y las notas realizadas de la lectura se puede ver a continuación: [clase_7: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7/lectura)
@@ -231,6 +230,7 @@ Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_7: N
 Como practica, el cual se encuentra en [clase_7: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_7/practica/app.js). El resuelve el problema de encontrar el valor mayor de un array utilizando el metodo Divide and conquer, permitiendonos mejorar nuestra comprención y habilidad para utilizar este metodo.
 
 Se utilizaron diferentes listas de numeros, las cuales se muestran acontinuación:
+
 ```js
 const numbers = [3, 8, 2, 10, 5, 7]; //prueba dada en la activiad
 // Arrays diferentes para validar el resultado
@@ -239,6 +239,7 @@ const arreglo2 = [-35, 8, 0, 27, -12, 14, 49];
 const arreglo3 = [3, 7, 0, 10];
 const arreglo4 = [123, 876, 345, 290, 765, 432];
 ```
+
 Como respuesta se da lo siguiente
 
         Maximo ejemplo 1: 10
@@ -247,6 +248,35 @@ Como respuesta se da lo siguiente
         Maximo arreglo 3: 10
         Maximo arreglo 4: 876
 
+### Clase 8. [Manejo de Archivos con Node JS](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_8)
+
+Como utima clase, se vio lo que es una introducción al manejo de archivos utilizando la libreria de Node JS (**System Files**). Con esta liberia se puede validar si un archivo existe, leer el archivo, sobre escribir o crear un archivo y eliminarlo.
+
+Las notas relacionadas a la clase se pueden ver en el siguiente link [clase_8: NotasClases](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_8/notas-clase) y las notas realizadas de la lectura se puede ver a continuación: [clase_8: lectura](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_8/lectura)
+
+Como practica, el cual se encuentra en [clase_8: practica](https://github.com/MLuisaGP/Becalos-logicaYAlgoritmos/tree/main/clase_8/practica/gestorNotas.js). El proposito del proyecto es utilizar las funciones aprendidas en clase, dando uso de las funciones basicas para manipular un archivo utilizando node js. Por el momento no se han visto como manipular correctamente funciones asyncronas por lo tanto el codigo se debe de correr funcion por función. La tematica del proyeco es gestar notas, donde se puedan agregar nuevas notas, verlas y eliminarlas.
+Las funciones utilizadas fueron las siguientes:
+
+```js
+fs.existsSync(); //Para validar si un archivo existe
+fs.readFile(); //Lee el contenido de un archivo
+fs.writeFile(); //Escribe dentro de un archivo o lo crea en caso de no existir.
+```
+
+Teniendo como resultado un archivo con el nombre _notas.json_ con la siguiente información como ejemplo:
+
+```json
+[
+  {
+    "titulo": "Compras",
+    "contenido": "Comprar leche y pan."
+  },
+  {
+    "titulo": "Trabajo",
+    "contenido": "Terminar reporte semanal."
+  }
+]
+```
 
 ## Autor
 
